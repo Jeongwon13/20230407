@@ -1,0 +1,47 @@
+package edu.kh.collection.model.service;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class SetService {
+	
+	// - 순서 유지하지 않음(인덱스 X)
+	// - 중복데이터 저장 불가 (null도 1개만 저장 가능)
+	
+	public void ex1() {
+		Set<String> set = new HashSet<String>();
+		set.add("네이버");
+		set.add("네이버");
+		set.add("카카오");
+		set.add("라인");
+		set.add("배민");
+		set.add("당근마켓");
+		set.add("토스");
+		set.add("야놀자");
+		set.add("야놀자");
+		
+		
+		set.add(null);
+		set.add(null);
+		set.add(null);
+			
+		set.remove("라인");
+		System.out.println(set.toString());
+		
+		// Set에 저장된 요소 하나씩 얻어오기
+		// 1. Iterator (반복자)
+		// -> 컬렉션에서 제공하는 컬렉션 객체 반복 접근자
+		// 임의의 순서로 하나씩 꺼냄
+		
+		Iterator<String> it = set.iterator();
+		
+		// Set.iterator();
+		// Set에 저장된 객체를 이용해 Iterator 객체를 만들어서 반환
+		
+		while(it.hasNext()) {
+			// hasNext() : 다음 값이 존재하면 true;
+			
+		}
+	}
+}

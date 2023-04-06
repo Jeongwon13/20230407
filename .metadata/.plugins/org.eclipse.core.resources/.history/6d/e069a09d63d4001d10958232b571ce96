@@ -1,0 +1,9 @@
+package edu.kh.collection.model.service;
+
+public class ListService {
+	
+	public void ex1() { 
+		
+		
+	}
+}

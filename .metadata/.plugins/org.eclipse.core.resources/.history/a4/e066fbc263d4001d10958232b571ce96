@@ -1,0 +1,18 @@
+package edu.kh.collection.model.service;
+
+import java.util.ArrayList;
+
+public class ListService {
+	
+	public void ex1() { 
+		
+		// java.util 패키지
+		
+		ArrayList list = new ArrayList(); // 기본생성자 -> 기본적으로 10칸짜리 생성됨.
+		
+		
+		
+		
+		
+	}
+}
